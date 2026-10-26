@@ -1,5 +1,5 @@
 # bachelor_project
-# Object Detection and Monocular Depth Estimation Using YOLOv13 and TST
+# Object Detection and Monocular Depth Estimation
 
 This repository presents my bachelor's project on **object detection** and **monocular depth estimation** from a single RGB image. The project combines **YOLOv13** for object detection with a **Token-Sharing Transformer (TST)**-based depth estimation network in order to detect objects, estimate their distance, remove unreliable depth values, and report the final object distance in **meters**.
 
