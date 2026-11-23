@@ -161,25 +161,12 @@ This type of pipeline can be useful in applications such as:
 
 ## 7. Training and Evaluation Summary
 
-Based on the project poster, the training setup includes:
 
 - **Optimizer:** Adam
 - **Learning rate:** 0.0003
 - **Epochs:** 14
 - **Depth range:** 0–10 m
 - **Loss function:** Scale-invariant logarithmic loss
-
-Reported quantitative results on the poster are:
-
-| Method | δ1 ↑ | AbsRel ↓ | SqRel ↓ | RMSE ↓ |
-|---|---:|---:|---:|---:|
-| TuMDE | 0.806 | 0.143 | 0.096 | 0.485 |
-| FastDepth | 0.781 | 0.157 | 0.117 | 0.536 |
-| GuidedDepth | 0.840 | 0.129 | 0.088 | 0.449 |
-| GuidedDepth-S | 0.817 | 0.140 | 0.095 | 0.484 |
-| **Our depth model** | **0.897** | **0.127** | **0.088** | **0.4368** |
-
-These results indicate that the proposed depth model achieves competitive performance, especially in terms of **δ1**, **AbsRel**, and **RMSE**.
 
 ---
 
